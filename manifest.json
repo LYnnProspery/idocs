@@ -1,0 +1,22 @@
+{
+    "name": "lynntest",
+    "version": "1.0",
+    "description": "test",
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions": ["storage", "declarativeContent"],
+    "background": {
+        "scripts": ["dist/background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "./dist/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["dist/content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
