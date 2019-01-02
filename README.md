@@ -5,7 +5,7 @@ Dont you think default search is toooo hard to use?
 Dont you think copy words to another page to search is tooooo complicated？
 Maybe idocs can help.
 
-![](https://user-gold-cdn.xitu.io/2019/1/2/1680e5968dc1a32b)
+<img src="https://user-gold-cdn.xitu.io/2019/1/2/1680e5968dc1a32b" alt="idocs" width="200px" />
 ## How to install
 ### offline crx file
 Open the Google Chrome Developer mode and drag the crx file into your browser to install it.
