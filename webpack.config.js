@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -28,7 +29,30 @@ module.exports = {
                     loader: "less-loader" // compiles Less to CSS
                 }]
             }
-        ]
+            // ,
+            // {
+            //     test: /\.html$/,
+            //     use: [
+            //         {
+            //             loader: 'html-loader'
+            //         }
+            //     ]
+            // },
+
+            // {
+            //     test: /\.(png|jpg)$/,
+            //     use: [
+            //         {
+            //             loader: 'url-loader',
+            //             options: {
+            //                 limit: 8192,
+            //                 name: 'img/[name].[ext]',
+            //                 publicPath: './'
+            //             }
+            //         }
+            //     ]
+            // }
+        ]   
     },
     
     plugins: [
@@ -37,6 +61,12 @@ module.exports = {
             chunks: ['popup'],
             inject: true,
             template: path.resolve(__dirname, './src/popup/index.html')
-        })
+        }),
+
+        new CopyWebpackPlugin([{
+            context: 'src/popup/img',
+            from: '*',
+            to: 'img'
+        }])
     ]
 }

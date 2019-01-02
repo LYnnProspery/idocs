@@ -9,6 +9,13 @@ body {
   margin-top: -10px;
   margin-bottom: -10px;
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .header-layout img {
+  height: 40px;
+  width: 40px;
 }
 .container .config-layout .config-item .config-prop-name {
   text-align: left;
@@ -32,7 +39,7 @@ body {
   opacity: 0;
 }
 .container .config-layout .config-item .select-item .select-item-input:checked + label {
-  border: 2px solid;
+  border: 2px solid #118571;
 }
 .container .config-layout .config-item .select-item .select-item-input:checked + label::after {
   position: absolute;
@@ -73,6 +80,7 @@ body {
   margin-top: 10px;
   border-radius: 5px;
   background: #069e8a;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;

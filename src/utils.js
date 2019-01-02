@@ -1,6 +1,6 @@
 export const getStorage = async (key) => new Promise(resolve => {
         chrome.storage.sync.get([key], (result) => {
-            resolve(result);
+            resolve(result[key]);
         });
     });
 

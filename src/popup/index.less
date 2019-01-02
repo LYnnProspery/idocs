@@ -9,6 +9,14 @@ body {
         margin-top: -10px;
         margin-bottom: -10px;
         font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 40px;
+            width: 40px;
+        }
     }
 
     .config-layout {
@@ -36,7 +44,7 @@ body {
                     opacity: 0;
 
                     &:checked+label { 
-                        border: 2px solid 
+                        border: 2px solid rgb(17, 133, 113);
                     }
 
                     &:checked+label::after {
@@ -85,6 +93,7 @@ body {
             margin-top: 10px;
             border-radius: 5px;
             background: rgb(6, 158, 138);
+            color: #fff;
             display: flex;
             align-items: center;
             justify-content: center;

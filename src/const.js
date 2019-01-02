@@ -12,4 +12,4 @@ export const IDOCS_CONFIG_ENGINE_BAIDU = 'baidu';
 export const REQUEST_CONFIG_SIGNAL = 'request_config_signal';
 export const UPDATE_CONFIG_SIGNAL = 'update_config_signal';
 
-export const KEY_CODE_MACOS_COMMAND = 93;
+export const KEY_MACOS_COMMAND = 'alt';
