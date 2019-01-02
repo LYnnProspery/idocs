@@ -20,3 +20,5 @@ Just select the content which you want to look up and double press the 'Alt' key
 Hope you guys will like it.
 
 Contact me with email: lynnprosper@163.com or add my wechat id: l59733984.
+
+If you like it, star it~
