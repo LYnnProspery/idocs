@@ -55,14 +55,12 @@ class Listener {
         let resultDocUrl = await this.generateSearchUrl(selection);
 
         // TODO 添加iframe 方式支持显示
-        console.log(resultDocUrl)
         window.open(resultDocUrl);
     }
 
     async generateSearchUrl(query) {
 
         let storage = await getStorage(IDOCS_STROAGE_KEY);
-
         let engine = storage[IDOCS_CONFIG_ENGINE];
         let lang = storage[IDOCS_CONFIG_LAN];
 

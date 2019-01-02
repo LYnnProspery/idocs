@@ -35,7 +35,6 @@ document.querySelector('.save-config-btn').addEventListener('click', () => {
                 [IDOCS_CONFIG_ENGINE]: engineVal
             } 
         }, (res) => {
-            console.log('update success');
             window.close();
         });
     }

@@ -18,13 +18,12 @@ class Walker {
     }
 
     async init() {        
-        console.log(await getStorage(IDOCS_STROAGE_KEY), 111);
         this.config = Object.assign(defaultConfig, await getStorage(IDOCS_STROAGE_KEY));
+        setStorage(IDOCS_STROAGE_KEY, this.config);
     }
 
     updateConfig(config) {
         this.config = Object.assign(this.config, config);
-
         setStorage(IDOCS_STROAGE_KEY, config);
     }
 }

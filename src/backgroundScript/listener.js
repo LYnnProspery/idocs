@@ -16,11 +16,9 @@ class Listener {
 
     init() {
         listenMsg((request, sender, sendResponse) => {
-            console.log(request, sender, sendResponse);
             
             switch (request.msg) {
                 case REQUEST_CONFIG_SIGNAL:
-                console.log(this._walker.config)
                     sendResponse(JSON.stringify({
                         [IDOCS_CONFIG_ENGINE]: this._walker.config[IDOCS_CONFIG_ENGINE],
                         [IDOCS_CONFIG_LAN]: this._walker.config[IDOCS_CONFIG_LAN],
@@ -29,7 +27,6 @@ class Listener {
                     break;
         
                 case UPDATE_CONFIG_SIGNAL:
-                    console.log(request.data);
                     this._walker.updateConfig(request.data);
                     
             }
