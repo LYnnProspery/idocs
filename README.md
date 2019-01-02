@@ -8,6 +8,7 @@ Maybe idocs can help.
 ## How to install
 ### offline crx file
 Open the Google Chrome Developer mode and drag the crx file into your browser to install it.
+crx file is in the crx folder which provide for download.
 
 ### Chrome webstore
 search idocs in chrome webstore: https://chrome.google.com/webstore/category/extensions and install it.
