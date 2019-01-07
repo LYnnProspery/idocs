@@ -4,6 +4,7 @@ import {
     IDOCS_CONFIG_LAN_ZH,
     IDOCS_CONFIG_ENGINE_BAIDU,
     IDOCS_CONFIG_ENGINE_GOOGLE,
+    IDOCS_CONFIG_ENGINE_GITHUB,
     IDOCS_CONFIG_ENGINE_MDN,
     IDOCS_STROAGE_KEY,
     IDOCS_CONFIG_LAN,
@@ -21,6 +22,11 @@ const engineMap = {
     [IDOCS_CONFIG_ENGINE_GOOGLE]: {
         [IDOCS_CONFIG_LAN_ZH]: 'https://www.google.com/search?hl=zh-CN&q=',
         [IDOCS_CONFIG_LAN_EN]: 'https://www.google.com/search?hl=en&q='
+    },
+
+    [IDOCS_CONFIG_ENGINE_GITHUB]: {
+        [IDOCS_CONFIG_LAN_ZH]: 'https://github.com/search?q=',
+        [IDOCS_CONFIG_LAN_EN]: 'https://github.com/search?q='
     },
 
     [IDOCS_CONFIG_ENGINE_MDN]: {
