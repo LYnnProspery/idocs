@@ -5,7 +5,7 @@ Dont you think default search is toooo hard to use?
 Dont you think copy words to another page to search is tooooo complicated？
 Maybe idocs can help.
 
-<img src="https://user-gold-cdn.xitu.io/2019/1/2/1680e5968dc1a32b" alt="idocs" width="200px" />
+<img src="https://static.yximgs.com/udata/pkg/lyp/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-01-07%2010.54.55.png" alt="idocs" width="200px" />
 
 ## How to install
 ### offline crx file

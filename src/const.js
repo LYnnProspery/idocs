@@ -8,6 +8,7 @@ export const IDOCS_CONFIG_ENGINE = 'idocs_config_engine';
 export const IDOCS_CONFIG_ENGINE_MDN = 'mdn';
 export const IDOCS_CONFIG_ENGINE_GOOGLE = 'google';
 export const IDOCS_CONFIG_ENGINE_BAIDU = 'baidu';
+export const IDOCS_CONFIG_ENGINE_GITHUB = 'github';
 
 export const REQUEST_CONFIG_SIGNAL = 'request_config_signal';
 export const UPDATE_CONFIG_SIGNAL = 'update_config_signal';
