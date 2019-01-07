@@ -5,6 +5,8 @@ Dont you think default search is toooo hard to use?
 Dont you think copy words to another page to search is tooooo complicated？
 Maybe idocs can help.
 
+![](https://static.yximgs.com/udata/pkg/lyp/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-01-07%2010.54.55.png)
+
 ## How to install
 ![](https://static.yximgs.com/udata/pkg/lyp/1.gif)
 
